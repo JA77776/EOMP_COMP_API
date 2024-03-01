@@ -71,10 +71,7 @@ class Users{
     async alterUser(req, res) {
         let data = req.body;
 
-        // Check if the user is trying to update the password
-        // if (data.userPwd) {
-        //     data.userPwd = await hash(data.userPwd, 10);
-        // }
+ 
 
         const qry = `
             UPDATE Users
