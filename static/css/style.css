@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    color: aqua;
+    background-color: black;
+}
+
+table{
+    background-color: rgba(15, 53, 55, 0.622);
+    box-sizing: border-box;
+    border: 2rem;
+    border-radius: 15px;
+    margin: auto;
+}
